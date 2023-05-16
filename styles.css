@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(150,150,150);
+}
+
+main {
+    background-color: rgb(255,0,0);
+}
+
+footer {
+    padding: 5px;
+    background-color: rgb(200,200,200);
+}
