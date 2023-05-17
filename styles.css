@@ -2,13 +2,12 @@
     margin: 0px;
 }
 
-.squareImage {
+.bannerImage {
     object-fit: cover;
     float: right;
     padding-left: 50px;
-    padding-right: 50px;
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
 }
 
 header {
@@ -21,7 +20,7 @@ main {
 
 .banner {
     color: rgb(255,255,255);
-    padding: 30px;
+    padding: 50px;
     min-height: 400px;
     height: fit-content;
 }
