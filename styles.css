@@ -2,6 +2,15 @@
     margin: 0px;
 }
 
+.squareImage {
+    object-fit: cover;
+    float: right;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 250px;
+    height: 250px;
+}
+
 header {
     background-color: rgb(150,150,150);
 }
@@ -11,10 +20,10 @@ main {
 }
 
 .banner {
+    color: rgb(255,255,255);
     padding: 30px;
-    min-height: 250px;
+    min-height: 400px;
     height: fit-content;
-    background-color: rgb(90,150,90);
 }
 
 .leftAlignedBanner {
@@ -25,6 +34,55 @@ main {
 .rightAlignedBanner {
     text-align: right;
     background-color: rgb(90,150,150);
+}
+
+#starBanner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/starsBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#moonBanner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/moonBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#asteroidBanner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/asteroidBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#galaxiesBanner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/galaxyBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nebulaBanner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/nebulaBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#eclipseBanner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/eclipseBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#blackHoleBanner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/blackHoleBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
