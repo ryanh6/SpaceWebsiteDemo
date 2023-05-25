@@ -1,7 +1,5 @@
 $(document).ready(function()
 {
-    alert("Your document is ready to go");
-
     $(".hiddenContent").hide();
     $(".hideButton").hide();
 
