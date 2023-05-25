@@ -8,9 +8,6 @@ $(document).ready(function()
         alert(classList[1]);
 
         $("." + classList[1]).toggle();
-
-        //$(".hiddenContent").toggle();
-        //$(".readMoreButton").toggle();
     });
 
     $(".hideButton").click(function(){

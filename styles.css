@@ -2,10 +2,17 @@
     margin: 0px;
 }
 
+h2 {
+    font-size: 100;
+}
+
 img {
     object-fit: cover;
     width: 400px;
     height: 400px;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 1px;
 }
 
 .leftSideImage {
@@ -27,15 +34,30 @@ header {
     height: fit-content;
 }
 
+.banner p {
+    padding: 10px;
+}
+
 .leftAlignedBanner {
     text-align: left;
     background-color: rgb(150,90,150);
+}
+
+.leftAlignedBanner img {
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .rightAlignedBanner {
     text-align: right;
     background-color: rgb(90,150,150);
 }
+
+.rightAlignedBanner img {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
 
 #starBanner {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/starsBanner.jpg");
@@ -71,5 +93,5 @@ footer {
     width: 100%;
 
     color: rgb(255,255,255);
-    background-color: rgb(0,0,0);
+    background-color: rgb(0,0,0,0.5);
 }
