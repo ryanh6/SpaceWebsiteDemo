@@ -3,8 +3,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.miniText {
+    font-size: 12;
+}
+
 hr {
+    height: 3px;
+    border: none;
     margin: 30px;
+    background-color: rgb(100,110,120);
 }
 
 img {
@@ -77,11 +84,12 @@ header {
 
 footer {
     padding: 50px;
-    padding-top: 50px;
 
-    font-weight: bold;
     background-color: rgb(50,60,70);
     color: rgb(100,110,120);
+
+    text-align: center;
+    font-weight: bold;
 }
 
 footer ul {
@@ -94,6 +102,10 @@ footer ul {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+
+    background-color: rgb(50,60,70);
+    color: rgb(100,110,120);
+    font-weight: bold;
 }
 
 .footerTable tr th {
@@ -109,4 +121,6 @@ footer ul {
 
     color: rgb(255,255,255);
     background-color: rgb(0,0,0,0.5);
+
+    text-align: left;
 }
