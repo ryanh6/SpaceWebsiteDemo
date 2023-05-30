@@ -32,14 +32,6 @@ h2 {
     justify-content: center;
 }
 
-.leftSideImage {
-    float: left;
-}
-
-.rightSideImage {
-    float: right;
-}
-
 header {
     background-color: rgb(211,211,211);
 }
@@ -67,8 +59,9 @@ header {
 }
 
 .leftAlignedBanner img {
+    float: right;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .rightAlignedBanner {
@@ -77,8 +70,9 @@ header {
 }
 
 .rightAlignedBanner img {
+    float: left;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .hideButton {
