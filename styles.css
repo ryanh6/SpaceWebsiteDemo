@@ -30,8 +30,8 @@ h2 {
 
 .galleryImage {
     object-fit: cover;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     outline-style: solid;
     outline-color: rgb(255,255,255);
     outline-width: 1px;
