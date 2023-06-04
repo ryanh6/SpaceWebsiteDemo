@@ -28,6 +28,15 @@ h2 {
     outline-width: 1px;
 }
 
+.galleryImage {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    outline-style: solid;
+    outline-color: rgb(255,255,255);
+    outline-width: 1px;
+}
+
 .imageSet {
     display: flex;
     justify-content: center;
