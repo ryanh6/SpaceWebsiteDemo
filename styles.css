@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+a {
+    color: inherit;
+}
+
 hr {
     height: 3px;
     border: none;
