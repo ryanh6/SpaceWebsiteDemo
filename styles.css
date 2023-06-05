@@ -50,6 +50,18 @@ header {
     background-color: rgb(211,211,211);
 }
 
+#headerBanner {
+    background-color: rgb(0,0,100);
+    padding: 0px;
+    height: 700px;
+}
+
+.headerImage {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
 .banner {
     color: rgb(255,255,255);
     padding: 50px;
