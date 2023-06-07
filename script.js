@@ -10,12 +10,12 @@ $(document).ready(function()
                         "images/stars2.jpg", "images/stars3.webp", "images/stars4.jpg", "images/starsBanner.jpg", "images/titanMoon3.jpeg",
                         "images/earth1.webp", "images/jupiter1.jpg", "images/jupiter2.jpg", "images/mars1.jpg", "images/mars2.jpg",
                         "images/mars3.jpg", "images/mercury1.jpg", "images/mercury2.avif", "images/neptune1.jpg", "images/neptune2.webp",
-                        "images/saturn1.jpg", "images/saturn2.jpg", "images/saturn.png", "images/uranus1.jpg", "images/venus1.jpg", "images/venus2.jpg"];
+                        "images/saturn1.jpg", "images/saturn2.jpg", "images/saturn3.png", "images/uranus1.jpg", "images/venus1.jpg", "images/venus2.jpg"];
 
     const shuffledArray = imageArray.sort(function(){return 0.5 - Math.random()});
 
     $(".random").ready(function(){
-        for (let i = 0; i < 15; i++){
+        for (let i = 0; i < 20; i++){
             $(".random").append("<img class = \"galleryImage\" src = \"" + shuffledArray[i] + "\"/>");
         }
     });
