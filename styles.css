@@ -33,9 +33,12 @@ h2 {
 }
 
 .galleryImage {
+    display: inline-block;
+    justify-content: center;
+
     object-fit: cover;
-    width: 303.5px;
-    height: 303.5px;
+    width: 500px;
+    height: 500px;
     outline-style: solid;
     outline-color: rgb(255,255,255);
     outline-width: 1px;
