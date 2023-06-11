@@ -34,8 +34,9 @@ h2 {
 
 .galleryImage {
     object-fit: cover;
-    width: 500px;
-    height: 500px;
+    margin: 54px;
+    width: 650px;
+    height: 650px;
 }
 
 .galleryImage:hover {
@@ -96,6 +97,11 @@ header {
     float: left;
     margin-right: 20px;
     margin-bottom: 30px;
+}
+
+.random {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .hideButton {
