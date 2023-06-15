@@ -162,5 +162,7 @@ footer hr {
 }
 
 #titleBanner {
-    background-color: rgb(255,0,0);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
