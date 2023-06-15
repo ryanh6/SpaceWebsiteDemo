@@ -53,13 +53,6 @@ header {
     background-color: rgb(211,211,211);
 }
 
-#headerBanner {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0,0,100);
-    padding: 0px;
-    height: 800px;
-}
-
 .banner {
     color: rgb(255,255,255);
     padding: 50px;
@@ -166,4 +159,8 @@ footer hr {
     background-color: rgb(0,0,0,0.5);
 
     text-align: left;
+}
+
+#titleBanner {
+    background-color: rgb(255,0,0);
 }
