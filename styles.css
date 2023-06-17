@@ -43,7 +43,7 @@ h2 {
 
 .galleryImage:hover {
     opacity: 0.5;
-    background-color: rgb(0,0,0);
+    background-color: rgb(20,40,80);
 }
 
 .imageSet {
@@ -64,6 +64,7 @@ header {
 
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .banner p {
@@ -110,31 +111,31 @@ header {
 
 /* CSS Section for the ----- DISCOVER UNIQUE BANNER ----- starts here */
 #starBanner {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/starsBanner.jpg");
+    background-image: linear-gradient(rgba(20,40,80,0.5), rgba(20,40,80,0.5)), url("images/starsBanner.jpg");
 }
 
 #moonBanner {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/moonBanner.jpg");
+    background-image: linear-gradient(rgba(20,40,80,0.5), rgba(20,40,80,0.5)), url("images/moonBanner.jpg");
 }
 
 #asteroidBanner {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/asteroidBanner.jpg");
+    background-image: linear-gradient(rgba(20,40,80,0.5), rgba(20,40,80,0.5)), url("images/asteroidBanner.jpg");
 }
 
 #galaxiesBanner {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/galaxyBanner.jpg");
+    background-image: linear-gradient(rgba(20,40,80,0.5), rgba(20,40,80,0.5)), url("images/galaxyBanner.jpg");
 }
 
 #nebulaBanner {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/nebulaBanner.jpg");
+    background-image: linear-gradient(rgba(20,40,80,0.5), rgba(20,40,80,0.5)), url("images/nebulaBanner.jpg");
 }
 
 #eclipseBanner {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/eclipseBanner.jpg");
+    background-image: linear-gradient(rgba(20,40,80,0.5), rgba(20,40,80,0.5)), url("images/eclipseBanner.jpg");
 }
 
 #blackHoleBanner {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/blackHoleBanner.jpg");
+    background-image: linear-gradient(rgba(20,40,80,0.5), rgba(20,40,80,0.5)), url("images/blackHoleBanner.jpg");
 }
 
 /* CSS Section for the ----- DISCLAIMER ----- starts here */
