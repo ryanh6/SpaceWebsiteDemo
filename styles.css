@@ -226,12 +226,11 @@ footer hr {
 
 /* CSS Section for the ----- NAVIGATION BAR ----- starts here */
 nav ul {
+    list-style-type: none;
     padding-left: 10px;
 }
 
 nav ul li {
     float: left;
-    display: inline-block;
-
     margin: 25px;
 }
