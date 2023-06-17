@@ -123,8 +123,8 @@ footer {
     padding: 50px;
     padding-bottom: 80px;
 
-    background-color: rgb(50,60,70);
-    color: rgb(100,110,120);
+    background-color: rgb(20,40,80);
+    color: rgb(70,90,130);
 
     text-align: center;
     font-weight: bold;
@@ -141,8 +141,8 @@ footer ul {
     margin-right: auto;
     width: 90%;
 
-    background-color: rgb(50,60,70);
-    color: rgb(100,110,120);
+    background-color: inherit;
+    color: inherit;
 }
 
 .footerTable tr th {
@@ -163,7 +163,7 @@ footer ul {
 
 footer hr {
     margin: 50px;
-    background-color: rgb(100,110,120);
+    background-color: rgb(70,90,130);
 }
 
 /* CSS Section for the ----- TITLE PAGE ----- starts here */
