@@ -25,6 +25,11 @@ h2 {
     font-size: 12;
 }
 
+/* ul {
+    margin: 0px;
+    padding: 0px;
+} */
+
 .discoverImage {
     object-fit: cover;
     width: 400px;
@@ -217,4 +222,16 @@ footer hr {
 #titleBanner p {
     margin: 10px;
     font-size: 30;
+}
+
+/* CSS Section for the ----- NAVIGATION BAR ----- starts here */
+nav ul {
+    padding-left: 10px;
+}
+
+nav ul li {
+    float: left;
+    display: inline-block;
+
+    margin: 25px;
 }
