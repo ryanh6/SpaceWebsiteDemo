@@ -12,7 +12,10 @@ $(document).ready(function()
                                "images/stars2.jpg", "images/stars3.webp", "images/stars4.jpg", "images/starsBanner.jpg", "images/titanMoon3.jpeg",
                                "images/earth1.webp", "images/jupiter1.jpg", "images/jupiter2.jpg", "images/mars1.jpg", "images/mars2.jpg",
                                "images/mars3.jpg", "images/mercury1.jpg", "images/mercury2.avif", "images/neptune1.jpg", "images/neptune2.webp",
-                               "images/saturn1.jpg", "images/saturn2.jpg", "images/saturn3.png", "images/uranus1.jpg", "images/venus1.jpg", "images/venus2.jpg"];
+                               "images/saturn1.jpg", "images/saturn2.jpg", "images/saturn3.png", "images/uranus1.jpg", "images/venus1.jpg", "images/venus2.jpg",
+                               "images/spaceBackground1.webp", "images/spaceBackground2.jpg", "images/spaceBackground3.jpg", "images/spaceBackground4.jpg",
+                               "images/spaceBackground5.jpg", "images/spaceBackground6.jpg", "images/spaceBackground7.jpg", "images/spaceBackground8.jpg",
+                               "images/spaceBackground9.jpg", "images/spaceBackground10.jpg"];
 
     const shuffledTitleArray = titleImageArray.sort(function(){return 0.5 - Math.random()});
     const shuffledGalleryArray = galleryImageArray.sort(function(){return 0.5 - Math.random()});
