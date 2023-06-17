@@ -14,6 +14,10 @@ hr {
     border: none;
 }
 
+h1 {
+    font-size: 100;
+}
+
 h2 {
     font-size: 80;
 }
@@ -162,7 +166,16 @@ footer hr {
 }
 
 #titleBanner {
-    height: 800px;
+    color: rgb(255,255,255);
+    text-align: center;
+    padding-top: 275px;
+
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#titleBanner p {
+    margin: 10px;
+    font-size: 30;
 }

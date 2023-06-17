@@ -20,7 +20,7 @@ $(document).ready(function()
     $("#titleBanner").ready(function(){
         var titlePageImage = shuffledTitleArray[0];
 
-        $("#titleBanner").css({"background-image": "url(" + titlePageImage + ")"});
+        $("#titleBanner").css({"background-image": "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(" + titlePageImage + ")"});
     });
 
     $(".random").ready(function(){
