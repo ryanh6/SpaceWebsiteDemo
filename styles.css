@@ -1,3 +1,4 @@
+/* CSS Section for the ----- ENTIRE WEBSITE ----- starts here */
 * {
     margin: 0px;
     font-size: 20;
@@ -5,6 +6,7 @@
     scroll-behavior: smooth;
 }
 
+/* CSS Section for the ----- GENERAL ELEMENTS ----- starts here */
 a {
     color: inherit;
 }
@@ -12,10 +14,6 @@ a {
 hr {
     height: 3px;
     border: none;
-}
-
-h1 {
-    font-size: 100;
 }
 
 h2 {
@@ -105,6 +103,22 @@ header {
     text-align: center;
 }
 
+
+/* CSS Section for the ----- DISCLAIMER ----- starts here */
+.disclaimer {
+    position: fixed;
+    padding: 15px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,0,0.5);
+
+    text-align: left;
+}
+
+/* CSS Section for the ----- FOOTER ----- starts here */
 footer {
     padding: 50px;
     padding-bottom: 80px;
@@ -152,19 +166,7 @@ footer hr {
     background-color: rgb(100,110,120);
 }
 
-.disclaimer {
-    position: fixed;
-    padding: 15px;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-
-    color: rgb(255,255,255);
-    background-color: rgb(0,0,0,0.5);
-
-    text-align: left;
-}
-
+/* CSS Section for the ----- TITLE PAGE ----- starts here */
 #titleBanner {
     color: rgb(255,255,255);
     text-align: center;
@@ -173,6 +175,10 @@ footer hr {
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#titleBanner h1 {
+    font-size: 100;
 }
 
 #titleBanner p {
