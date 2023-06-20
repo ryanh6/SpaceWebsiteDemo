@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+main {
+    background-image: linear-gradient(rgba(70,90,130,0.3), rgba(70,90,130,0.3)), url("images/spaceBackground11.jpg");
+}
+
 /* CSS Section for the ----- GENERAL ELEMENTS ----- starts here */
 a {
     color: inherit;
@@ -39,10 +43,10 @@ h2 {
     margin: 54px;
     width: 650px;
     height: 650px;
-}
 
-.galleryImage:hover {
-    opacity: 0.5;
+    outline-style: solid;
+    outline-color: rgb(255,255,255);
+    outline-width: 1px;
 }
 
 .imageSet {
