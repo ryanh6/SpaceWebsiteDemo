@@ -1,12 +1,12 @@
 $(document).ready(function()
 {
-    const titleImageArray = ["images/spaceBackground1.webp", "images/spaceBackground2.jpg", "images/spaceBackground3.jpg", "images/spaceBackground4.jpg",
-                             "images/spaceBackground5.jpg", "images/spaceBackground6.jpg", "images/spaceBackground7.jpg", "images/spaceBackground8.jpg",
+    const titleImageArray = ["images/spaceBackground1.webp", "images/spaceBackground4.jpg",
+                             "images/spaceBackground6.jpg", "images/spaceBackground7.jpg", "images/spaceBackground8.jpg",
                              "images/spaceBackground9.jpg", "images/spaceBackground10.jpg"];
     const galleryImageArray = ["images/asteroid1.jpg", "images/asteroid2.jpg", "images/asteroid3.jpg", "images/asteroid4.jpg", "images/asteroidBanner.jpg",
                                "images/blackHole1.webp", "images/blackHole2.jpg", "images/blackHole3.jfif", "images/blackHole4.jpg", "images/blackHoleBanner.jpg",
                                "images/eclipse1.webp", "images/eclipse2.webp", "images/eclipse3.jpg", "images/eclipse4.jpg", "images/eclipseBanner.jpg",
-                               "images/EuropaMoon2.jpeg", "images/galaxy1.webp", "images/galaxy2.jfif", "images/galaxy3.webp", "images/galaxy4.jpg",
+                               "images/EuropaMoon2.jpg", "images/galaxy1.webp", "images/galaxy2.jfif", "images/galaxy3.webp", "images/galaxy4.jpg",
                                "images/galaxyBanner.jpg", "images/GanymedeMoon1.jpg", "images/moon4.jpg", "images/moonBanner.jpg", "images/nebula1.jpg",
                                "images/nebula2.jpg", "images/nebula3.jpg", "images/nebula4.webp", "images/nebulaBanner.jpg", "images/stars1.jpg",
                                "images/stars2.jpg", "images/stars3.webp", "images/stars4.jpg", "images/starsBanner.jpg", "images/titanMoon3.jpeg",
