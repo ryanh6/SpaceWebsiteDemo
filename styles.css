@@ -226,7 +226,6 @@ footer hr {
 /* CSS Section for the ----- HEADER BANNER ----- starts here */
 .headerBanner {
     text-align: center;
-    /* padding-top: 100px; */
     height: 700px;
 
     background-repeat: no-repeat;
@@ -245,6 +244,12 @@ footer hr {
     background-image: linear-gradient(rgba(20,40,80,0.8), rgba(100,120,160,0.8)), url("images/spaceBackground3.jpg");
 }
 
-#galleryHeader img {
-    float: right;
+/* CSS Section for the ----- NAVIGATION ----- starts here */
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
 }
