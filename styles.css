@@ -246,11 +246,23 @@ footer hr {
 
 /* CSS Section for the ----- NAVIGATION ----- starts here */
 nav ul {
-    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(20,40,80);
     padding: 0px;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 15px;
+    float: right;
+    text-decoration: none;
+    font-size: 24;
+    padding: 20px 30px;
+    list-style-type: none;
+}
+
+#pageTitle {
+    float: left;
+}
+
+nav ul li:hover {
+    background-color: rgba(100,120,160,0.8);
 }
