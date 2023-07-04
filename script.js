@@ -27,7 +27,7 @@ $(document).ready(function()
     });
 
     $(".random").ready(function(){
-        for (let i = 0; i < 20; i++){
+        for (let i = 0; i < 21; i++){
             $(".random").append("<img class = \"galleryImage\" src = \"" + shuffledGalleryArray[i] + "\"/>");
         }
     });
