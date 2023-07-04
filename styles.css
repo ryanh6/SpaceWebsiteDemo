@@ -31,12 +31,12 @@ h2 {
 /* CSS Section for the ----- GENERAL ELEMENTS ----- ends here */
 /* CSS Section for the ----- GALLERY PAGE ----- starts here */
 .random {
-    padding: 50px;
+    padding: 50px 30px;
 }
 
 .galleryImage {
     object-fit: cover;
-    margin: 1% 0.5%;
+    margin: 0.5% 0.5%;
     width: 32.3%;
     aspect-ratio: 1 / 1;
 
