@@ -2,7 +2,7 @@ $(document).ready(function()
 {
     var today = new Date();
     var date = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
-    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var time = today.getHours() + ":" + String(today.getMinutes()).padStart(2, '0') + ":" + String(today.getSeconds()).padStart(2, '0');
     var currentTime = date + " " + time;
 
     const titleImageArray = ["images/spaceBackground1.webp", "images/spaceBackground4.jpg",
@@ -32,7 +32,7 @@ $(document).ready(function()
     $("#titleBanner").ready(function(){
         var titlePageImage = shuffledTitleArray[0];
 
-        $("#titleBanner").css({"background-image": "linear-gradient(rgba(20,40,80,0.5), rgba(20,40,80,0.5) ), url(" + titlePageImage + ")"});
+        $("#titleBanner").css({"background-image": "linear-gradient(rgba(20,40,80,0.5), rgba(20,40,80,0.5)), url(" + titlePageImage + ")"});
     });
 
     $(".random").ready(function(){

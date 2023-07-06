@@ -282,14 +282,9 @@ header {
 }
 
 svg {
-    background-color: rgb(255,255,0);
-    min-height: 500px;
-    height: fit-content;
-}
-
-circle {
-    cx: 300;
-    cy: 650;
+    margin: 1%;
+    width: 98%;
+    background-color: rgb(255,255,255);
 }
 
 svg circle:hover {
