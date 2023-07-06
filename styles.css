@@ -280,3 +280,18 @@ header {
 .hideButton {
     text-align: center;
 }
+
+svg {
+    background-color: rgb(255,255,0);
+    min-height: 500px;
+    height: fit-content;
+}
+
+circle {
+    cx: 300;
+    cy: 650;
+}
+
+svg circle:hover {
+    fill: rgb(150,90,150);
+}
