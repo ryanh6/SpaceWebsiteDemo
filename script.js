@@ -1,5 +1,10 @@
 $(document).ready(function()
 {
+    var today = new Date();
+    var date = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var currentTime = date + " " + time;
+
     const titleImageArray = ["images/spaceBackground1.webp", "images/spaceBackground4.jpg",
                              "images/spaceBackground6.jpg", "images/spaceBackground7.jpg", "images/spaceBackground8.jpg",
                              "images/spaceBackground9.jpg", "images/spaceBackground10.jpg"];
@@ -19,6 +24,10 @@ $(document).ready(function()
 
     const shuffledTitleArray = titleImageArray.sort(function(){return 0.5 - Math.random()});
     const shuffledGalleryArray = galleryImageArray.sort(function(){return 0.5 - Math.random()});
+
+    $(".time").ready(function(){
+        $(".time").append("The current time is " + currentTime);
+    });
 
     $("#titleBanner").ready(function(){
         var titlePageImage = shuffledTitleArray[0];
