@@ -27,7 +27,6 @@ $(document).ready(function()
 
     $(".time").ready(function(){
         $(".time").append("The current time is " + currentTime);
-        $(".time").append("\n" + screen.width);
     });
 
     $("#titleBanner").ready(function(){
