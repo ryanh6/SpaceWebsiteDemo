@@ -1,8 +1,8 @@
 $(document).ready(function()
 {
     var today = new Date();
-    var date = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
-    var time = today.getHours() + ":" + String(today.getMinutes()).padStart(2, '0') + ":" + String(today.getSeconds()).padStart(2, '0');
+    var date = today.getFullYear() + "-" + String((today.getMonth() + 1)).padStart(2, '0') + "-" + String(today.getDate()).padStart(2, '0');
+    var time = String(today.getHours()).padStart(2, '0') + ":" + String(today.getMinutes()).padStart(2, '0') + ":" + String(today.getSeconds()).padStart(2, '0');
     var currentTime = date + " " + time;
 
     const titleImageArray = ["images/spaceBackground1.webp", "images/spaceBackground4.jpg",

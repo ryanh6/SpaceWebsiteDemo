@@ -290,3 +290,9 @@ svg {
 svg circle:hover {
     fill: rgb(150,90,150);
 }
+
+.orbit {
+    fill: none;
+    stroke: rgb(100,100,100);
+    stroke-width: 1;
+}
