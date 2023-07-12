@@ -93,16 +93,28 @@ nav ul li:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* CSS Section for the ----- TITLE PAGE ----- ends here */
 
-/* #titleBanner h1 {
-    font-size: 100
+/* CSS Section for the ----- SOLAR SYSTEM SHAPES ----- starts here */
+.planet {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid rgb(255,0,0);
+    border-radius: 50%;
 }
 
-#titleBanner p {
-    margin: 10px;
-    font-size: 30;
-} */
-/* CSS Section for the ----- TITLE PAGE ----- ends here */
+.orbit {
+    height: 50px;
+    width: 500px;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid rgb(100,100,100);
+    border-radius: 50% / 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0;
+}
+/* CSS Section for the ----- SOLAR SYSTEM SHAPES ----- ends here */
 
 /* CSS Section for the ----- DISCOVER UNIQUE BANNER ----- starts here */
 #starBanner {
@@ -277,21 +289,4 @@ header {
 
 .hideButton {
     text-align: center;
-}
-
-svg {
-    margin: 1%;
-    width: 98%;
-    aspect-ratio: 2 / 1;
-    background-color: rgb(255,255,255);
-}
-
-svg circle:hover {
-    fill: rgb(150,90,150);
-}
-
-.orbit {
-    fill: none;
-    stroke: rgb(100,100,100);
-    stroke-width: 1;
 }
