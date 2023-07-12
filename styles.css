@@ -257,7 +257,6 @@ header {
 
 .leftAlignedBanner {
     text-align: left;
-    background-color: rgb(150,90,150);
 }
 
 .leftAlignedBanner img {
@@ -268,7 +267,6 @@ header {
 
 .rightAlignedBanner {
     text-align: right;
-    background-color: rgb(90,150,150);
 }
 
 .rightAlignedBanner img {
