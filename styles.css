@@ -99,6 +99,8 @@ nav ul li:hover {
 #solarSystem {
     padding: 2%;
     position: relative;
+    min-height: 100px;
+    height: fit-content;
 }
 
 .planet {
@@ -121,6 +123,8 @@ nav ul li:hover {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom: 0;
+
+    position: absolute;
 }
 
 .lowerOrbit {
@@ -132,6 +136,8 @@ nav ul li:hover {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-top: 0;
+
+    position: absolute;
 }
 /* CSS Section for the ----- SOLAR SYSTEM SHAPES ----- ends here */
 
