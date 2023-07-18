@@ -99,8 +99,7 @@ nav ul li:hover {
 #solarSystem {
     padding: 2%;
     position: relative;
-    min-height: 100px;
-    height: fit-content;
+    height: 100%;
 }
 
 .planet {
@@ -111,7 +110,6 @@ nav ul li:hover {
     border-radius: 50%;
 
     position: absolute;
-    top: 200px;
 }
 
 .upperOrbit {
